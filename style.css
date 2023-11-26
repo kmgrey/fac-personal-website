@@ -121,14 +121,15 @@ a {
     display: flex;
 }
 #img-div {
-    height: 35vh;
-    width: 20vw;
+    height: 300px;
+    width: 250px;
     margin-left: 5%;
     align-self: center;
+    overflow: hide;
 }
 img {
     max-height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 /*Frame controls*/
 .frame {
